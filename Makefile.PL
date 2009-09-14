@@ -3,6 +3,8 @@ use inc::Module::Install;
 
 all_from 'lib/XS/Assert.pm';
 
+install_headers 'xs_assert.h';
+
 cc_warnings;
 
 test_requires 'Test::More' => 0.42;
