@@ -13,6 +13,8 @@ $ENV{LANG} = 'C';
 all_pod_files_spelling_ok('lib');
 
 __DATA__
+gfx
+svtype
 Goro Fuji (gfx)
 gfuji(at)cpan.org
 XS::Assert
