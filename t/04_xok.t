@@ -32,7 +32,7 @@ ok eval{ assert_sv_ok(3.14); 1 };
 
 ok eval{ assert_sv_ok({}); 1 };
 
-ok eval{ assert_sv_ok(*ok); 1 };
+ok eval{ assert_sv_ok(\*ok); 1 };
 
 # SvPOKp
 
